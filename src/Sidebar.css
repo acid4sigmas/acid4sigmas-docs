@@ -1,0 +1,19 @@
+.sidebar {
+    background-color: rgb(14, 5, 113);
+    position: fixed;
+    height: 100vh;
+    padding: 10px;
+    overflow-y: auto;
+    border-right: 1px solid white;
+}
+
+
+.toggle-button {
+    background-color: #766eec; /* Button color */
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 12px;
+}

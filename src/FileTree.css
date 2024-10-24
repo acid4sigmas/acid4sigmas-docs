@@ -1,0 +1,21 @@
+.spacer {
+    margin-left: 8px;
+}
+
+.file-span {
+    padding: 1vh;
+}
+
+.file-span:hover {
+    background-color: #655ecb;
+    cursor: pointer;
+}
+
+.folder-div {
+    padding: 1vh;
+    cursor: pointer;
+}
+
+.folder-div:hover {
+    background-color: #655ecb;
+}

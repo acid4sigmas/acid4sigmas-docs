@@ -1,0 +1,70 @@
+/* styles.css */
+.custom-syntax-highlighter {
+    background-color: #282c34; /* Custom background */
+    border-radius: 10px;       /* Rounded corners */
+    padding: 15px;             /* Padding inside code blocks */
+    color: #f8f8f2;            /* Text color */     /* Adjust font size */
+    border: 1px solid #44475a; /* Border color */
+    text-align: center;
+    width: fit-content;
+    font-size: 1em;
+}
+
+
+.custom-syntax-highlighter pre {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.docviewer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+
+.docviewer-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(110, 44, 181);
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 12px 12px 12px black;
+
+}
+
+.docviewer-flex > table {
+    background-color: rgb(103, 31, 105);
+    padding: 2vh;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(44, 1, 40);
+}
+
+th {
+    background-color: rgb(73, 20, 75);
+    border-radius: 4px;
+    padding: 5px
+}
+
+td {
+    background-color: rgb(128, 26, 132);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+@media (max-width: 410px) {
+    .custom-syntax-highlighter {
+        font-size: 0.8em;     
+    }
+}
+  
+@media (max-width: 600px) {
+    .docviewer-flex {
+        width: 100%;
+    }
+}
